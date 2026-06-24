@@ -1,0 +1,15 @@
+.intro {
+  max-width: 830px;
+  margin: auto 0;
+}
+
+.intro__title {
+  margin: 0 0 40px;
+  font-size: 54px;
+  font-weight: 900;
+}
+
+.intro__text {
+  margin: 0;
+  line-height: 1.6;
+}
