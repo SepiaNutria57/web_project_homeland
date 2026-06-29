@@ -38,3 +38,29 @@
 .place__paragraph {
     line-height: 1.6;
 }
+
+@media screen and (max-width: 1024px) {
+    .places {
+        width: calc(100% - 48px);
+    }
+
+    .place {
+        grid-template-columns: 340px 1fr;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .places {
+        width: calc(100% - 32px);
+    }
+
+    .place {
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    .place__title {
+        font-size: 32px;
+    }
+}
