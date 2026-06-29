@@ -1,91 +1,96 @@
-@import url(header.css);
-@import url(lead.css);
-@import url(intro.css);
-@import url(places.css);
-@import url(footer.css);
-@import url(fonts.css);
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+@import url("../blocks/footer.css");
+@import url("../blocks/header.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/lead.css");
+@import url("../blocks/places.css");
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 img {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 .page {
-  font-family: "Inter", sans-serif;
-  background: #2a2c2f;
-  color: #fff;
-  min-width: 320px;
+    font-family: "Inter", sans-serif;
+    background: #2a2c2f;
+    color: #fff;
+    min-width: 320px;
+}
+
+.content {
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead {
-    width: calc(100% - 48px);
-  }
+    .lead {
+        width: calc(100% - 48px);
+    }
 
-  .intro {
-    width: calc(100% - 48px);
-  }
+    .intro {
+        width: calc(100% - 48px);
+    }
 
-  .places {
-    width: calc(100% - 48px);
-  }
+    .places {
+        width: calc(100% - 48px);
+    }
 
-  .lead__title {
-    font-size: 75px;
-  }
+    .lead__title {
+        font-size: 75px;
+    }
 
-  .place {
-    grid-template-columns: 340px 1fr;
-  }
+    .place {
+        grid-template-columns: 340px 1fr;
+    }
 }
 
 @media screen and (max-width: 544px) {
-  .header {
-    padding: 20px 0 50px;
-  }
+    .header {
+        padding: 20px 0 50px;
+    }
 
-  .header__logo {
-    width: 188px;
-  }
+    .header__logo {
+        width: 188px;
+    }
 
-  .lead {
-    width: calc(100% - 32px);
-  }
+    .lead {
+        width: calc(100% - 32px);
+    }
 
-  .lead__title {
-    font-size: 40px;
-  }
+    .lead__title {
+        font-size: 40px;
+    }
 
-  .lead__subtitle {
-    font-size: 16px;
-  }
+    .lead__subtitle {
+        font-size: 16px;
+    }
 
-  .intro {
-    width: calc(100% - 32px);
-  }
+    .intro {
+        width: calc(100% - 32px);
+    }
 
-  .intro__title {
-    font-size: 32px;
-  }
+    .intro__title {
+        font-size: 32px;
+    }
 
-  .places {
-    width: calc(100% - 32px);
-  }
+    .places {
+        width: calc(100% - 32px);
+    }
 
-  .place {
-    display: flex;
-    flex-direction: column;
-  }
+    .place {
+        display: flex;
+        flex-direction: column;
+    }
 
-  .place__title {
-    font-size: 32px;
-  }
+    .place__title {
+        font-size: 32px;
+    }
 }
