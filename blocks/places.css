@@ -38,15 +38,3 @@
 .place__paragraph {
     line-height: 1.6;
 }
-
-.place__button {
-    display: inline-block;
-
-    padding: 13px 20px;
-
-    background: #0278fe;
-    color: #fff;
-
-    text-decoration: none;
-    border-radius: 4px;
-}
