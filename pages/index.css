@@ -5,27 +5,3 @@
 @import url("../blocks/intro.css");
 @import url("../blocks/lead.css");
 @import url("../blocks/places.css");
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-}
-
-.page {
-    font-family: "Inter", sans-serif;
-    background: #2a2c2f;
-    color: #fff;
-    min-width: 320px;
-}
-
-.content {
-    overflow: hidden;
-}
