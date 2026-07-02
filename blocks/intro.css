@@ -11,17 +11,6 @@ img {
     max-width: 100%;
 }
 
-.page {
-    font-family: "Inter", sans-serif;
-    background: #2a2c2f;
-    color: #fff;
-    min-width: 320px;
-}
-
-.content {
-    overflow: hidden;
-}
-
 .intro {
     max-width: 830px;
     margin: 92px auto 0;
