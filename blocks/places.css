@@ -3,6 +3,13 @@
     height: 3338px;
     top: 2403px;
     left: 148px;
+
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-areas:
+        "title artist"
+        "image text"
+        "button text";
 }
 
 .places__title {
@@ -13,4 +20,41 @@
     line-height: 76px;
 
     color: #ffffff;
+}
+
+.places__artist {
+    grid-area: artist;
+    align-self: end;
+}
+
+.places__button {
+    grid-area: button;
+
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+    
+}
+
+.places__artist-title {
+}
+
+.places__artist-name {
+}
+
+.places__image {
+    grid-area: image;
+    width: 100%;
+    display: block;
+    box-shadow: 10px 10px 25px
+    rgba(0, 0, 0, 0.5);
+}
+
+.places__image:hover {
+    box-shadow: 15px 15px 35px
+    rgba(0, 0, 0, 0.5);
+
+.places__text {
+    grid-area: text;
+}
+
+.places__paragraph {
 }

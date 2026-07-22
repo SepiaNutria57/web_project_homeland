@@ -11,6 +11,8 @@
 }
 
 .place__title {
+    grid-area: title;
+
     margin: 0;
 
     font-size: 72px;
