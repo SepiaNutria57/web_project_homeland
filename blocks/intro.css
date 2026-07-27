@@ -41,18 +41,19 @@ img {
     font-size: 16px;
     line-height: 163%;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .intro {
         width: calc(100% - 48px);
     }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 320px) {
     .intro {
         width: calc(100% - 32px);
     }
 
     .intro__title {
         font-size: 32px;
+        line-height: 35px;
     }
 }
